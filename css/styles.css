@@ -122,3 +122,13 @@ a:hover{
    cursor: pointer;
    text-align: center;
 }
+
+@media (max-width: 1028px){
+  h2{
+    fon-size:4rem;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
